@@ -1,0 +1,58 @@
+#topMenu {
+    height: 30px;
+    width: 1450px;
+}
+#topMenu ul li {
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d;
+    float: right;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+#topMenu .container {
+    vertical-align:middle;
+    text-align:center;
+    font-family:fantasy;
+    font-weight:bold;
+}
+
+#topMenu .menuLink {
+    text-decoration:none;
+    color: white;
+    display: block;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink:hover {
+    color: red;
+    background-color: #4d4d4d;
+}
+.content {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);  
+    font-family:"Arial";
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+.Articles {
+    text-align:center;
+}
+
+.Article {
+    text-align:center;
+    display: inline-block;
+    margin:10px;
+}
+
+.Article ul li {
+    list-style-type:none;
+    text-align:center;
+}
